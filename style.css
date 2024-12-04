@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+body {
+  font-family: "Fondamento", cursive;
+  background-color: #011126;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.cardBody {
+  background-color: #bf9f63;
+  margin-top: -5px;
+  padding: 17px;
+  border: 5px groove #35d0f2;
+}
+.cardBody h3 {
+  margin-bottom: 8px;
+  color: #a61b4e;
+}
+.cardBody p {
+  color: #a6032f;
+}
+.cardBody .footer {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  margin: 50px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+.row .column {
+  width: 100%;
+}
+.row .column .image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
